@@ -28,16 +28,3 @@ class Kurs:
         total = points * koresponerande_poang[grade]
         print (total)
         return total
-
-'''
-kurser = []    
-
-Eng7 = Kurs("Engelska 7", 100, "A")
-Mat4 = Kurs("Matematik 4", 100, "C")
-kurser.append(Eng7)
-kurser.append(Mat4)
-
-for kurs in kurser:
-    kurs.print_info(kurs.name, kurs.points, kurs.grade)
-    kurs.calculate_score(kurs.points, kurs.grade)
-'''

@@ -1,5 +1,17 @@
 from Kurs import Kurs
 
-Eng7 = Kurs("Engelska 7", 100, "A")
+kurser = []
 
-print (Eng7.name)
+def add_course():
+    global kurser
+    print("\nLägg till kurs:")
+    name = input("Namn: ")
+    points = int(input("Poäng: "))
+    grade = input("Betyg: ")
+    kurs = Kurs(name, points, grade)
+    kurser.append(kurs)
+    
+
+
+for kurs in kurser:
+    print(kurs.name)
