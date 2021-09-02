@@ -1,4 +1,3 @@
-from typing import AsyncGenerator
 from Kurs import Kurs
 
 kurser = []
