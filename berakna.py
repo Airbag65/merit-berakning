@@ -23,8 +23,9 @@ def calc_merit():
     average_score = round(average_score, 2)
     return average_score
 
+antal_kurser = int(input("Ange antal kurser att lägga till: "))
 
-for i in range(16):
+for i in range(antal_kurser - 1):
     add_course()
 
 print("\n")

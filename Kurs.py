@@ -26,5 +26,4 @@ class Kurs:
             "A": 20
         }
         total = points * koresponerande_poang[grade]
-        print (total)
         return total
