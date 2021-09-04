@@ -25,7 +25,7 @@ def calc_merit():
 
 antal_kurser = int(input("Ange antal kurser att lägga till: "))
 
-for i in range(antal_kurser - 1):
+for i in range(antal_kurser):
     add_course()
 
 print("\n")
